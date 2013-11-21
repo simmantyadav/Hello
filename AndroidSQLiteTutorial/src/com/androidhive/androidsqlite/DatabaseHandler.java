@@ -127,8 +127,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 		db.delete(TABLE_CONTACTS, KEY_ID + " = ?",
 				new String[] { String.valueOf(contact.getID()) });
 		
-		Log.d("xxxx","xxxxxx");               
-		Log.d("xxxx","xxxxxx");
+		Log.d("xxxx","xxxxxx");                  
+		Log.d("xxxx","xxxxxx");  
 		//dd
 		db.close();
 	}
