@@ -128,7 +128,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 				new String[] { String.valueOf(contact.getID()) });
 		
 		Log.d("xxxx","xxxxxx");   
-		
+		Log.d("xxxx","xxxxxx");
 		
 		db.close();
 	}
