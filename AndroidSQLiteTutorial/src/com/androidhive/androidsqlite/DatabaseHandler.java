@@ -129,7 +129,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 		
 		Log.d("xxxx","xxxxxx");   
 		Log.d("xxxx","xxxxxx");
-		
+		//dd
 		db.close();
 	}
 
